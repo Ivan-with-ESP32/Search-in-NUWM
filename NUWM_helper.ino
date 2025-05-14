@@ -9,14 +9,14 @@
 
 #define WIFI_SSID "TP-Link_BF4A"
 #define WIFI_PASS "25659085"
-#define BOT_TOKEN "8082471321:AAFUFDJQ5HJAzUyqT9bLdZucVIATpHAChdY"
+#define BOT_TOKEN "***"
 #define ADMIN_ID "6231436511"
 
 #include <FastBot2.h>
 FastBot2 bot;
 
 const char *geminiApiKey = "***";
-const char* geminiApiUrl = "***";
+const char* geminiApiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent";
 const char *ai_model = "gemini-2.0-flash-lite";
 
 //==========VALUES=================================================
