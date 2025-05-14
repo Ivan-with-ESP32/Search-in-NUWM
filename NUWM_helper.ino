@@ -15,8 +15,8 @@
 #include <FastBot2.h>
 FastBot2 bot;
 
-const char *geminiApiKey = "AIzaSyC_J9gzHlAI_5cvppZRq0z19hdF-79_vjA";
-const char* geminiApiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent";
+const char *geminiApiKey = "***";
+const char* geminiApiUrl = "***";
 const char *ai_model = "gemini-2.0-flash-lite";
 
 //==========VALUES=================================================
