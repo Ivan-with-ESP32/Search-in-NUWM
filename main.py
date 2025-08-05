@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import google.generativeai as genai
 
-API_KEY = "AIzaSyC_J9gzHlAI_5cvppZRq0z19hdF-79_vjA"
+API_KEY = ""
 genai.configure(api_key = API_KEY)
 model = genai.GenerativeModel('gemini-2.0-pro-exp-02-05')
 chat = model.start_chat(history=[])
